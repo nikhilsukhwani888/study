@@ -1,4 +1,5 @@
 #include "CStack.hpp"
+#include "CFixConversion.hpp"
 
 int main()
 {
@@ -11,4 +12,7 @@ int main()
     obj->printSt();
 
     std::cout << "stack: " << obj->isBalancedParanthesis("()()()(") << std::endl;
+
+    CFixConversion *obj2 = new CFixConversion();
+    std::cout << "Infix to postfix: " << obj2->infixToPostfix("a+b*(c^d-e)") << std::endl;
 }
