@@ -1,4 +1,5 @@
-main.cpp
-stack/CStack.cpp
-stack/CMinStack.cpp
-stack/CFixConversion.cpp
+C:/Users/nikhi/Downloads/stack/main.cpp
+C:/Users/nikhi/Downloads/stack/stack/CStack.cpp
+C:/Users/nikhi/Downloads/stack/stack/CMinStack.cpp
+C:/Users/nikhi/Downloads/stack/stack/CFixConversion.cpp
+C:/Users/nikhi/Downloads/stack/stack/CNextGreaterElement.cpp

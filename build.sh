@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Exit on error
-set -e
+# set -e
 
 # Set build directory
 BUILD_DIR=build
