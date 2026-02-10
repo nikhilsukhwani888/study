@@ -6,9 +6,10 @@
             "command": "C:/msys64/ucrt64/bin/g++.exe",
             "args": [
                 "-g",
-                "*.cpp",
+                "@${workspaceFolder}/sources.txt",
+                "-I${workspaceFolder}",
                 "-o",
-                "${fileDirname}\\main.exe"
+                "${workspaceFolder}/main.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"

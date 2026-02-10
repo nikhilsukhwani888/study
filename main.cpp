@@ -1,6 +1,6 @@
-#include "CStack.hpp"
-#include "CFixConversion.hpp"
-#include "CMinStack.hpp"
+#include "stack/CStack.hpp"
+#include "stack/CFixConversion.hpp"
+#include "stack/CMinStack.hpp"
 
 /**
  * 
@@ -8,16 +8,5 @@
 
 int main()
 {
-    CMyStack *obj = new CMyStack(10);
-    obj->pop();
-    obj->push(10);
-    obj->printSt();
-    obj->pop();
-    obj->push(5);
-    obj->printSt();
-
-    std::cout << "stack: " << obj->isBalancedParanthesis("()()()(") << std::endl;
-
-    CFixConversion *obj2 = new CFixConversion();
-    std::cout << "Infix to postfix: " << obj2->infixToPostfix("a+b*(c^d-e)") << std::endl;
+    std::cout << "Study Material" << std::endl;
 }
