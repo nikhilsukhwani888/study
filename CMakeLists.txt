@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 
-project(study LANGUAGES CXX)
+project(main LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -10,12 +10,17 @@ file(GLOB STACK_SOURCES
     stack/*.cpp
 )
 
-add_executable(study
-    main.cpp
-    ${STACK_SOURCES}
+file(GLOB MULTITHREADING_SOURCES
+    multithreading/*.cpp
 )
 
-target_include_directories(study PRIVATE
+add_executable(main
+    main.cpp
+    ${STACK_SOURCES}
+    ${MULTITHREADING_SOURCES}
+)
+
+target_include_directories(main PRIVATE
     ${CMAKE_SOURCE_DIR}
-    study
+    main
 )

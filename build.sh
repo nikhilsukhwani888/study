@@ -16,4 +16,4 @@ cmake -S . -B "$BUILD_DIR" -G "MinGW Makefiles"
 cmake --build "$BUILD_DIR"
 
 # Run the executable
-"$BUILD_DIR/study.exe"
+"$BUILD_DIR/main.exe"
