@@ -5,5 +5,6 @@
 class Example{
     public:
     Example();
-    void helloWorld();
+    void helloWorld2();
+    void helloWorld(char symbol);
 };

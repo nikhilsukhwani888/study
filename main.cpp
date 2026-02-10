@@ -3,6 +3,7 @@
 #include "stack/CMinStack.hpp"
 #include "stack/CNextGreaterElement.hpp"
 #include "multithreading/Example.hpp"
+#include "multithreading/WeatherForecast.hpp"
 
 /**
  * 
@@ -15,8 +16,9 @@ int main()
     // std::vector<int> temp = {4, 12, 5, 3, 1, 2, 5, 3, 1, 2, 4, 6};
     // CNextGreaterElement *nge = new CNextGreaterElement();
     // nge->getNGE(temp);
+    std::map<std::string, int> weatherData = {{"Temperature", 30}, {"Humidity", 70}};
 
-    std::thread t1(Example::helloWorld, Example());
+    std::thread t1(WeatherForecast::refreshWeatherForecast, WeatherForecast(), weatherData);
 
     t1.join();
 
