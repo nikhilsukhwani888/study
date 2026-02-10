@@ -5,3 +5,4 @@ C:/Users/nikhi/Downloads/stack/stack/CFixConversion.cpp
 C:/Users/nikhi/Downloads/stack/stack/CNextGreaterElement.cpp
 C:/Users/nikhi/Downloads/stack/multithreading/Example.cpp
 C:/Users/nikhi/Downloads/stack/multithreading/WeatherForecast.cpp
+C:/Users/nikhi/Downloads/stack/multithreading/CMutexExample.cpp
