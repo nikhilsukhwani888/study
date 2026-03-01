@@ -6,3 +6,7 @@ C:/Users/nikhi/Downloads/stack/stack/CNextGreaterElement.cpp
 C:/Users/nikhi/Downloads/stack/multithreading/Example.cpp
 C:/Users/nikhi/Downloads/stack/multithreading/WeatherForecast.cpp
 C:/Users/nikhi/Downloads/stack/multithreading/CMutexExample.cpp
+C:/Users/nikhi/Downloads/stack/designPatterns/ObserverDesign/CUser.cpp
+C:/Users/nikhi/Downloads/stack/designPatterns/ObserverDesign/CSubscribe.cpp
+C:/Users/nikhi/Downloads/stack/designPatterns/ObserverDesign/CChannel.cpp
+C:/Users/nikhi/Downloads/stack/designPatterns/ObserverDesign/dummy.cpp

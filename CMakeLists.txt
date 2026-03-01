@@ -14,10 +14,15 @@ file(GLOB MULTITHREADING_SOURCES
     multithreading/*.cpp
 )
 
+file(GLOB DESIGN_PATTERNS_SOURCES
+    designPatterns/ObserverDesign/*.cpp
+)
+
 add_executable(main
     main.cpp
     ${STACK_SOURCES}
     ${MULTITHREADING_SOURCES}
+    ${DESIGN_PATTERNS_SOURCES}
 )
 
 target_include_directories(main PRIVATE
