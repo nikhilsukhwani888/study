@@ -1,0 +1,7 @@
+// Create only single instance of class, and same instance is given to all objects for this singleton class
+
+
+// CSingleton* singleton1 = CSingleton::getInstance();
+// CSingleton* singleton2 = CSingleton::getInstance();
+
+// std::cout << (singleton1 == singleton2) << std::endl; // Output: 1 (true)

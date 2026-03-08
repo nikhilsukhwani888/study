@@ -15,7 +15,9 @@ file(GLOB MULTITHREADING_SOURCES
 )
 
 file(GLOB DESIGN_PATTERNS_SOURCES
-    designPatterns/ObserverDesign/*.cpp
+    designPatterns/ObserverDesign/*.cpp,
+    designPatterns/singletonDesign/*.cpp
+    
 )
 
 add_executable(main

@@ -9,6 +9,8 @@
 #include "designPatterns/ObserverDesign/CSubscribe.hpp"
 #include "designPatterns/ObserverDesign/CUser.hpp"
 #include "designPatterns/ObserverDesign/CUser2.hpp"
+#include "designPatterns/singletonDesign/CSingleton.hpp"
+
 
 /**
  * 
