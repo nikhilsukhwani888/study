@@ -33,24 +33,7 @@ int main()
     // t3.join();
     // t4.join();
 
-    CChannel channel;
-
-    Cuser* subscriber1 = new Cuser("user1");
-    Cuser* subscriber2 = new Cuser("user2");
-
-    channel.subscribe(subscriber1);
-    channel.subscribe(subscriber2);
-
-    channel.notifySubscribers("Hello from channel!");
-
-    dummy *dummySubscriber = new dummy();
-    channel.subscribe(dummySubscriber);
-
-    channel.notifySubscribers("Another message from channel!");
-
-    channel.unsubscribe(subscriber1);
-
-    channel.notifySubscribers("Message after unsubscribing subscriber1!");
+    
 
 
     return 0;

@@ -1,0 +1,18 @@
+CChannel channel;   // Add as many as channels you want and subscribe/notify will be used same
+
+Cuser* subscriber1 = new Cuser("user1");
+Cuser* subscriber2 = new Cuser("user2");
+
+channel.subscribe(subscriber1);
+channel.subscribe(subscriber2);
+
+channel.notifySubscribers("Hello from channel!");
+
+dummy *dummySubscriber = new dummy();
+channel.subscribe(dummySubscriber);
+
+channel.notifySubscribers("Another message from channel!");
+
+channel.unsubscribe(subscriber1);
+
+channel.notifySubscribers("Message after unsubscribing subscriber1!");
