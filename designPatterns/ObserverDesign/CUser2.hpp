@@ -1,8 +1,8 @@
 #include "CSubscribe.hpp"
 
-class dummy : public CSubscribe
+class CUser2 : public CSubscribe
 {
 public:
-    dummy();
+    CUser2();
     void Notify(std::string message) override;
 };
