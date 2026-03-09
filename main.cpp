@@ -11,7 +11,6 @@
 #include "designPatterns/ObserverDesign/CUser2.hpp"
 #include "designPatterns/singletonDesign/CSingleton.hpp"
 
-
 /**
  * 
  */
